@@ -7,6 +7,7 @@ const zeroWidth = windowWidth / 2 - 10
 
 export const styles = StyleSheet.create({
   firstRow: {
+    marginHorizontal: 5,
     borderColor: 'black',
     paddingTop: 20,
     flexDirection: 'row',
@@ -55,6 +56,7 @@ export const styles = StyleSheet.create({
     textAlign: 'center'
   },
   buttonOrange: {
+    marginVertical: 5,
     justifyContent: 'center',
     height: buttonWidth,
     width: buttonWidth,
