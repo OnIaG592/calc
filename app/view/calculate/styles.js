@@ -7,6 +7,7 @@ const zeroWidth = windowWidth / 2 - 10
 
 export const styles = StyleSheet.create({
   firstRow: {
+    flex:0.7,
     marginHorizontal: 5,
     borderColor: 'black',
     paddingTop: 20,

@@ -1,5 +1,6 @@
 import { types } from "./actionType"
 
-export const calculate = () => ({
+export const calculate = (item) => ({
     type: types.GET_ANSWER,
+    item
 })
