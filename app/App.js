@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { store } from '../Redux';
+import { store } from '../app/modules/redux/index';
 import { Provider } from 'react-redux';
-import CalcModule from '../components/calc'
+import CalcModule from '../app/view/calculate/calc'
 
 const App = () => {
   return (
